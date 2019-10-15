@@ -1,8 +1,12 @@
 @Import 'layout.css';
 
 body {
-  box-sizing: border-box;
   text-align: center;
+}
+
+header, nav, article, section, div, footer {
+  outline: 1px solid black;
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
