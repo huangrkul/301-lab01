@@ -36,7 +36,45 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px){
+  header {
+    background-color: #3891cd;
+  }
+  
+  nav {
+    background-color: #3e588f;
+  }
+  
+  article section:first-of-type div:first-child {
+    background-color: #966296;
+  }
+  
+  article section:first-of-type div:last-child  {
+    background-color: #5f2753;
+  }
+  
+  article section:last-of-type div:first-child {
+    background-color: #cacaca;
+  }
+  
+  article section:last-of-type div:nth-child(2) {
+    background-color: #6e6e6e;
+  }
+  
+  article section:last-of-type div:nth-child(3) {
+    background-color: #474747;
+  }
+  
+  article section:last-of-type div:last-child {
+    background-color: #313131;
+  }
+  
+  footer {
+    background-color: #54a25b;
+  }
+}
+
+@media (min-width: 1024px) {
   header {
     background-color: #cd5638;
   }
